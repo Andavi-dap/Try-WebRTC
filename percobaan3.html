@@ -1,0 +1,29 @@
+<html>
+<head>
+  <base target="_blank">
+  <title>getUserMedia + CSS filters</title>
+  <link rel="stylesheet" href="css/main.css">
+<body>
+  <div id="container">
+    <div class="highlight">
+      <p>Filter</p>
+    <h1>Percobaan 3 : Filter</h1>
+    <video autoplay></video>
+    <label for="select">Filter: </label>
+    <select id="filter">
+      <option value="none">None</option>
+      <option value="blur">Blur</option>
+      <option value="grayscale">Grayscale</option>
+      <option value="invert">Invert</option>
+      <option value="sepia">Sepia</option>
+      <option value="brightness">Brightness</option>      <!-- Tambahan-->
+      <option value="fliphorizontal">Flip Horizontal</option>   <!-- Tambahan-->
+    </select>
+    <button id="snapshot">Take snapshot</button>
+    <div id="handleError"></div>
+    <canvas></canvas>
+  </div>
+  <script src="js/main3.js"></script>
+  <footer class="group-tag"><strong>Kelompok "DoubleDuoLoroTwo"</strong></footer>
+</body>
+</html>
